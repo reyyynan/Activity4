@@ -156,3 +156,7 @@ UPDATE owners
 SET ofirstname = 'NewFirstName', olastname = 'NewLastName', address = 'NewAddress',
     email = 'newemail@example.com', phone = '555-555-5555'
 WHERE ownerid = 1;
+
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES
+(11, 'Buddy', 'Dog', 'Labrador Retriever', '2021-02-10', 'Male', 'Black', 2);
